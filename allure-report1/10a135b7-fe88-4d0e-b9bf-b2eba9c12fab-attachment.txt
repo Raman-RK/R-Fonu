@@ -1,0 +1,62 @@
+[32mINFO    [0m sign_in_test:test_signin.py:36 __Test One.
+[32mINFO    [0m sign_in_test:test_signin.py:37 __Verifying Title.
+[32mINFO    [0m sign_in_test:test_signin.py:43 __ Title.
+[32mINFO    [0m sign_in_test:test_signin.py:54 ____________Test Two__________
+[32mINFO    [0m sign_in_test:test_signin.py:60 __excepted text is same as actual text.
+[32mINFO    [0m sign_in_test:test_signin.py:65 __Test Three
+[32mINFO    [0m sign_in_test:test_signin.py:77 __Test One
+[32mINFO    [0m sign_in_test:test_signin.py:80 __Url entered.
+[32mINFO    [0m sign_in_test:test_signin.py:86 __Number entered.
+[32mINFO    [0m sign_in_test:test_signin.py:90 __Password entered
+[32mINFO    [0m sign_in_test:test_signin.py:94 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_signin.py:98 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_signin.py:102 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_signin.py:105 __Clicked Send.
+[32mINFO    [0m sign_in_test:test_signin.py:107 __Entered verification Code.
+[32mINFO    [0m sign_in_test:test_signin.py:109 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_teams.py:44 __Test One
+[32mINFO    [0m sign_in_test:test_teams.py:45 __Adding Member
+[32mINFO    [0m sign_in_test:test_teams.py:54 __Successful login
+[32mINFO    [0m sign_in_test:test_teams.py:57 ____________Team on header is clicked.
+[32mINFO    [0m sign_in_test:test_teams.py:61 ____________Clicked add member.
+[32mINFO    [0m sign_in_test:test_teams.py:63 ____________First name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:65 ____________Last name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:67 Email is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:69 ____________Phone number is entered
+[32mINFO    [0m sign_in_test:test_teams.py:71 ____________Clicked on dropdown to select the role
+[32mINFO    [0m sign_in_test:test_teams.py:76 ____________Selected the role
+[32mINFO    [0m sign_in_test:test_teams.py:82 __Member added successfully
+[32mINFO    [0m sign_in_test:test_teams.py:91 __Clicked on the teams in sidebar
+[32mINFO    [0m sign_in_test:test_teams.py:93 __Clicked on the create team.
+[32mINFO    [0m sign_in_test:test_teams.py:95 __Team name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:97 __Clicked on 'Select dropdown'
+[32mINFO    [0m sign_in_test:test_teams.py:100 __Selected on member.
+[32mINFO    [0m sign_in_test:test_teams.py:103 Team is created successfully
+[32mINFO    [0m sign_in_test:test_teams.py:111 __Clicked on the create team.
+[32mINFO    [0m sign_in_test:test_teams.py:113 __Team name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:117 __Clicked on the submit button
+[32mINFO    [0m sign_in_test:test_teams.py:118 __Team without member is created successfully
+[32mINFO    [0m sign_in_test:test_teams.py:129 __Three dot menu of First team is selected
+[32mINFO    [0m sign_in_test:test_teams.py:131 __Clicked on edit team
+[32mINFO    [0m sign_in_test:test_teams.py:133 __Team name is changed
+[32mINFO    [0m sign_in_test:test_teams.py:135 __Clicked on the member dropdown
+[32mINFO    [0m sign_in_test:test_teams.py:137 __members from the dropdown are modified
+[32mINFO    [0m sign_in_test:test_teams.py:139 __Clicked on the member dropdown
+[32mINFO    [0m sign_in_test:test_teams.py:141 __Clicked on the Create Team
+[32mINFO    [0m sign_in_test:test_teams.py:144 __Three dot menu of First team is selected
+[32mINFO    [0m sign_in_test:test_teams.py:146 __Clicked on invite to team
+[32mINFO    [0m sign_in_test:test_teams.py:149 __Clicked on send invite
+[32mINFO    [0m sign_in_test:test_teams.py:165 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:168 __Clicked on assign team.
+[32mINFO    [0m sign_in_test:test_teams.py:171 __Selected team to assign
+[32mINFO    [0m sign_in_test:test_teams.py:174 __Submit.
+[32mINFO    [0m sign_in_test:test_teams.py:178 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:181 __Clicked assign number.
+[32mINFO    [0m sign_in_test:test_teams.py:184 __Selected number from the list.
+[32mINFO    [0m sign_in_test:test_teams.py:187 __Submit.
+[32mINFO    [0m sign_in_test:test_teams.py:191 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:194 __Click unassign number.
+[32mINFO    [0m sign_in_test:test_teams.py:197 __Submit.
+[32mINFO    [0m sign_in_test:test_teams.py:201 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:205 __Clicked edit member.
+[32mINFO    [0m sign_in_test:test_teams.py:208 __Clicked three dot menu.

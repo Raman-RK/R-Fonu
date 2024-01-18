@@ -1,0 +1,12 @@
+[92m2024-01-18 18:34:13,066 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-18 18:34:13,066 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-18 18:34:13,166 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-18 18:34:13,166 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-18 18:34:13,297 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-18 18:34:13,297 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-18 18:34:13,413 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-18 18:34:13,413 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-18 18:34:13,933 :INFO :sign_in_test :__Selected on member.[0m
+[92m2024-01-18 18:34:13,933 :INFO :sign_in_test :__Selected on member.[0m
+[92m2024-01-18 18:34:16,106 :INFO :sign_in_test :Team is created successfully[0m
+[92m2024-01-18 18:34:16,106 :INFO :sign_in_test :Team is created successfully[0m

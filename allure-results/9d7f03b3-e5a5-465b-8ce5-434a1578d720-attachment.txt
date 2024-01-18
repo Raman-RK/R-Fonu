@@ -1,0 +1,3 @@
+[32mINFO    [0m sign_in_test:test_signin.py:36 __Test One.
+[32mINFO    [0m sign_in_test:test_signin.py:37 __Verifying Title.
+[32mINFO    [0m sign_in_test:test_signin.py:43 __ Title.

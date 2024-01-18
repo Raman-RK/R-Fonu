@@ -1,0 +1,650 @@
+.....FFFFFFF                                                             [100%]
+================================== FAILURES ===================================
+__________________________ TestTeam.test_add_member ___________________________
+
+self = <testCases.test_teams.TestTeam object at 0x0000018EF88E2E30>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+
+    @allure.feature('Adding a member')
+    @allure.story('Verify member is added successfully.')
+    def test_add_member(self, setup):
+        self.logger.info("__Test One")
+        self.logger.info("__Adding Member")
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+        self.sp = SignInPage(self.driver)
+        self.driver.get(self.baseURL)
+        self.driver.maximize_window()
+        self.sp.send_phone("+234 1234567890")
+        self.sp.send_password("OhMG@123")
+        self.sp.click_sign_in_btn()
+        self.logger.info("__Successful login")
+        time.sleep(5)
+>       self.tp.click_teams_heading()
+
+testCases\test_teams.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:21: in click_teams_heading
+    self.click_element('XPATH', self.tpl.teams_heading_xpath)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x0000018EF890FD90>
+message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F241860]
+E       	(No symbol) [0x00007FF63F24197C]
+E       	(No symbol) [0x00007FF63F284EE7]
+E       	(No symbol) [0x00007FF63F26602F]
+E       	(No symbol) [0x00007FF63F2828F6]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+---------------------------- Captured stderr call -----------------------------
+[92m2024-01-18 17:58:24,438 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 17:58:24,438 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 17:58:24,439 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-18 17:58:24,439 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-18 17:58:29,262 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-18 17:58:29,262 :INFO :sign_in_test :__Successful login[0m
+------------------------------ Captured log call ------------------------------
+INFO     sign_in_test:test_teams.py:44 __Test One
+INFO     sign_in_test:test_teams.py:45 __Adding Member
+INFO     sign_in_test:test_teams.py:54 __Successful login
+__________________________ TestTeam.test_create_team __________________________
+
+self = <testCases.test_teams.TestTeam object at 0x0000018EF88E2FE0>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+
+    @allure.feature('Creating a Team')
+    @allure.story('Verify team with member is added successfully.')
+    def test_create_team(self, setup):
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+>       self.tp.click_subheading_teams()
+
+testCases\test_teams.py:90: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:53: in click_subheading_teams
+    self.click_element('CSS_SELECTOR', self.tpl.teams_sub_heading_css)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x0000018EF890FE20>
+message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F241860]
+E       	(No symbol) [0x00007FF63F24197C]
+E       	(No symbol) [0x00007FF63F284EE7]
+E       	(No symbol) [0x00007FF63F26602F]
+E       	(No symbol) [0x00007FF63F2828F6]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+_______________________ TestTeam.test_create_empty_team _______________________
+
+self = <testCases.test_teams.TestTeam object at 0x0000018EF88E32E0>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+
+    @allure.feature('Create a Team')
+    @allure.feature('Verify that a team without a member is created successfully')
+    def test_create_empty_team(self, setup):
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+>       self.tp.click_create_team()
+
+testCases\test_teams.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:56: in click_create_team
+    self.click_element('CSS_SELECTOR', self.tpl.create_team_btn_css)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x0000018EEDF00AF0>
+message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F241860]
+E       	(No symbol) [0x00007FF63F24197C]
+E       	(No symbol) [0x00007FF63F284EE7]
+E       	(No symbol) [0x00007FF63F26602F]
+E       	(No symbol) [0x00007FF63F2828F6]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+_____________________ TestTeam.test_perform_actions_team ______________________
+
+self = <testCases.test_teams.TestTeam object at 0x0000018EF88E3550>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+
+    @allure.feature('Inviting team members to already created teams')
+    @allure.feature('Verify that a team members are invited successfully')
+    def test_perform_actions_team(self, setup):
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+    
+>       self.tp.click_subheading_teams()
+
+testCases\test_teams.py:126: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:53: in click_subheading_teams
+    self.click_element('CSS_SELECTOR', self.tpl.teams_sub_heading_css)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+local\lib\site-packages\selenium\webdriver\support\wait.py:92: in until
+    value = method(self._driver)
+local\lib\site-packages\selenium\webdriver\support\expected_conditions.py:356: in _predicate
+    element = visibility_of(target)(driver)
+local\lib\site-packages\selenium\webdriver\support\expected_conditions.py:167: in _predicate
+    return _element_if_visible(element)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+element = None, visibility = True
+
+    def _element_if_visible(element: WebElement, visibility: bool = True) -> Union[Literal[False], WebElement]:
+>       return element if element.is_displayed() == visibility else False
+E       AttributeError: 'NoneType' object has no attribute 'is_displayed'
+
+local\lib\site-packages\selenium\webdriver\support\expected_conditions.py:173: AttributeError
+______________________ TestTeam.test_table_data_in_excel ______________________
+
+self = <testCases.test_teams.TestTeam object at 0x0000018EF88E37C0>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+
+    def test_table_data_in_excel(self, setup):
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+        time.sleep(3)
+>       self.tp.table_data_teams()
+
+testCases\test_teams.py:156: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:235: in table_data_teams
+    self.common_table_data(self.tpl.table_css, "table_data_teams", 'CSS_SELECTOR', "Members")
+pageObjects\teams_page.py:224: in common_table_data
+    table = WebDriverWait(self.driver, timeout).until(
+local\lib\site-packages\selenium\webdriver\support\wait.py:92: in until
+    value = method(self._driver)
+local\lib\site-packages\selenium\webdriver\support\expected_conditions.py:150: in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+local\lib\site-packages\selenium\webdriver\remote\webdriver.py:741: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+local\lib\site-packages\selenium\webdriver\remote\webdriver.py:347: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000018EF89268F0>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...07FF63F3488C4]\\n\\tBaseThreadInitThunk [0x00007FFAF31D7344+20]\\n\\tRtlUserThreadStart [0x00007FFAF42A26B1+33]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=120.0.6099.224)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F1D0AFD]
+E       	(No symbol) [0x00007FF63F26CB1B]
+E       	(No symbol) [0x00007FF63F28218F]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\remote\errorhandler.py:229: NoSuchWindowException
+____________________ TestTeam.test_perform_actions_member _____________________
+
+self = <testCases.test_teams.TestTeam object at 0x0000018EF88E3A30>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="8d2be4ea417e254f6ab2969eb49cefb3")>
+
+    def test_perform_actions_member(self, setup):
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+        time.sleep(3)
+>       self.tp.click_member_subheading()
+
+testCases\test_teams.py:162: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:180: in click_member_subheading
+    self.click_element('XPATH', self.tpl.member_subheading_xpath)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+local\lib\site-packages\selenium\webdriver\support\wait.py:92: in until
+    value = method(self._driver)
+local\lib\site-packages\selenium\webdriver\support\expected_conditions.py:355: in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+local\lib\site-packages\selenium\webdriver\remote\webdriver.py:741: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+local\lib\site-packages\selenium\webdriver\remote\webdriver.py:347: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000018EF89268F0>
+response = {'status': 404, 'value': '{"value":{"error":"no such window","message":"no such window: target window already closed\\...07FF63F3488C4]\\n\\tBaseThreadInitThunk [0x00007FFAF31D7344+20]\\n\\tRtlUserThreadStart [0x00007FFAF42A26B1+33]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+E       from unknown error: web view not found
+E         (Session info: chrome=120.0.6099.224)
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F1D0AFD]
+E       	(No symbol) [0x00007FF63F26CB1B]
+E       	(No symbol) [0x00007FF63F28218F]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\remote\errorhandler.py:229: NoSuchWindowException
+_____________________________ TestPhone.test_one ______________________________
+
+self = <testCases.test_phone.TestPhone object at 0x0000018EF89240A0>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="9e2260c5004cfc3afdf0ec8ed64204b7")>
+
+    def test_one(self, setup):
+        self.driver = setup
+        self.sp = SignInPage(self.driver)
+        self.pp = PhonePage(self.driver)
+        # self.driver.switch_to.alert.accept()
+>       self.pp.click_heading()
+
+testCases\test_phone.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\phone_page.py:9: in click_heading
+    self.click_element("XPATH", self.ppl.phone_heading_xpath)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="9e2260c5004cfc3afdf0ec8ed64204b7")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x0000018EF89F7EB0>
+message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F241860]
+E       	(No symbol) [0x00007FF63F24197C]
+E       	(No symbol) [0x00007FF63F284EE7]
+E       	(No symbol) [0x00007FF63F26602F]
+E       	(No symbol) [0x00007FF63F2828F6]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+=========================== short test summary info ===========================
+FAILED testCases/test_teams.py::TestTeam::test_add_member - selenium.common.e...
+FAILED testCases/test_teams.py::TestTeam::test_create_team - selenium.common....
+FAILED testCases/test_teams.py::TestTeam::test_create_empty_team - selenium.c...
+FAILED testCases/test_teams.py::TestTeam::test_perform_actions_team - Attribu...
+FAILED testCases/test_teams.py::TestTeam::test_table_data_in_excel - selenium...
+FAILED testCases/test_teams.py::TestTeam::test_perform_actions_member - selen...
+FAILED testCases/test_phone.py::TestPhone::test_one - selenium.common.excepti...
+7 failed, 5 passed in 103.77s (0:01:43)

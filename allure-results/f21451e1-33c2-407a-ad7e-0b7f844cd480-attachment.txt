@@ -1,0 +1,2 @@
+[32mINFO    [0m sign_in_test:test_signin.py:54 ____________Test Two__________
+[32mINFO    [0m sign_in_test:test_signin.py:60 __excepted text is same as actual text.

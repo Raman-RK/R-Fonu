@@ -1,0 +1,14 @@
+[32mINFO    [0m sign_in_test:test_teams.py:193 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:196 __Clicked on assign team.
+[32mINFO    [0m sign_in_test:test_teams.py:199 __Selected team to assign
+[32mINFO    [0m sign_in_test:test_teams.py:202 __Submit.
+[32mINFO    [0m sign_in_test:test_teams.py:206 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:209 __Clicked assign number.
+[32mINFO    [0m sign_in_test:test_teams.py:212 __Selected number from the list.
+[32mINFO    [0m sign_in_test:test_teams.py:215 __Submit.
+[32mINFO    [0m sign_in_test:test_teams.py:219 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:222 __Click unassign number.
+[32mINFO    [0m sign_in_test:test_teams.py:225 __Submit.
+[32mINFO    [0m sign_in_test:test_teams.py:229 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:233 __Clicked edit member.
+[32mINFO    [0m sign_in_test:test_teams.py:236 __Clicked three dot menu.

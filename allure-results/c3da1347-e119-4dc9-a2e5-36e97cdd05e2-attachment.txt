@@ -1,0 +1,12 @@
+[32mINFO    [0m sign_in_test:test_teams.py:44 __Test One
+[32mINFO    [0m sign_in_test:test_teams.py:45 __Adding Member
+[32mINFO    [0m sign_in_test:test_teams.py:54 __Successful login
+[32mINFO    [0m sign_in_test:test_teams.py:57 ____________Team on header is clicked.
+[32mINFO    [0m sign_in_test:test_teams.py:61 ____________Clicked add member.
+[32mINFO    [0m sign_in_test:test_teams.py:63 ____________First name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:65 ____________Last name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:67 Email is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:69 ____________Phone number is entered
+[32mINFO    [0m sign_in_test:test_teams.py:71 ____________Clicked on dropdown to select the role
+[32mINFO    [0m sign_in_test:test_teams.py:76 ____________Selected the role
+[32mINFO    [0m sign_in_test:test_teams.py:82 __Member added successfully

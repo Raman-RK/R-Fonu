@@ -1,0 +1,6 @@
+[92m2024-01-18 19:00:53,497 :INFO :sign_in_test :____________Test Two__________[0m
+[92m2024-01-18 19:00:53,497 :INFO :sign_in_test :____________Test Two__________[0m
+[92m2024-01-18 19:00:53,497 :INFO :sign_in_test :____________Test Two__________[0m
+[92m2024-01-18 19:00:53,618 :INFO :sign_in_test :__excepted text is same as actual text.[0m
+[92m2024-01-18 19:00:53,618 :INFO :sign_in_test :__excepted text is same as actual text.[0m
+[92m2024-01-18 19:00:53,618 :INFO :sign_in_test :__excepted text is same as actual text.[0m

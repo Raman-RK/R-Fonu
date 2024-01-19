@@ -1,0 +1,20 @@
+[92m2024-01-18 18:40:51,821 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 18:40:51,821 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 18:40:52,266 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-18 18:40:52,266 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-18 18:40:52,649 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-18 18:40:52,649 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-18 18:40:52,919 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-18 18:40:52,919 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-18 18:40:53,135 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:53,135 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:54,408 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:54,408 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:55,561 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:55,561 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:59,291 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-18 18:40:59,291 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-18 18:40:59,420 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-18 18:40:59,420 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-18 18:40:59,483 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:40:59,483 :INFO :sign_in_test :__Clicked Sign in.[0m

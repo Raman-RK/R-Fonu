@@ -1,0 +1,254 @@
+..........FF                                                             [100%]
+================================== FAILURES ===================================
+____________________ TestTeam.test_perform_actions_member _____________________
+
+self = <testCases.test_teams.TestTeam object at 0x000001FC53F13850>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="41a502be916f61b5795635753cb46a9e")>
+
+    def test_perform_actions_member(self, setup):
+        self.driver = setup
+        self.tp = TeamPage(self.driver)
+        time.sleep(3)
+        self.tp.click_member_subheading()
+        time.sleep(3)
+        self.tp.click_menu_member()
+        self.logger.info("__Clicked three dot menu.")
+    
+        self.tp.click_assign_team()
+        self.logger.info("__Clicked on assign team.")
+    
+        self.tp.select_team_to_assign()
+        self.logger.info("__Selected team to assign")
+    
+        self.tp.click_submit_assign_team()
+        self.logger.info("__Submit.")
+    
+        time.sleep(3)
+        self.tp.click_menu_member()
+        self.logger.info("__Clicked three dot menu.")
+    
+        self.tp.click_assign_number()
+        self.logger.info("__Clicked assign number.")
+    
+        self.tp.click_number_from_list()
+        self.logger.info("__Selected number from the list.")
+    
+        self.tp.click_submit_assign_number()
+        self.logger.info("__Submit.")
+    
+        time.sleep(3)
+        self.tp.click_menu_member()
+        self.logger.info("__Clicked three dot menu.")
+    
+        self.tp.click_unassign()
+        self.logger.info("__Click unassign number.")
+    
+        self.tp.click_unassign_submit()
+        self.logger.info("__Submit.")
+    
+        time.sleep(3)
+        self.tp.click_menu_member()
+        self.logger.info("__Clicked three dot menu.")
+    
+        time.sleep(3)
+        self.tp.click_edit_member()
+        self.logger.info("__Clicked edit member.")
+    
+        self.tp.change_member_name(self.random_name)
+        self.logger.info("__Clicked three dot menu.")
+    
+>       self.tp.click_submit_edit_member()
+
+testCases\test_teams.py:210: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\teams_page.py:221: in click_submit_edit_member
+    self.click_element('CSS_SELECTOR', self.tpl.submit_edit_member_css)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="41a502be916f61b5795635753cb46a9e")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x000001FC54757010>
+message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F241860]
+E       	(No symbol) [0x00007FF63F24197C]
+E       	(No symbol) [0x00007FF63F284EE7]
+E       	(No symbol) [0x00007FF63F26602F]
+E       	(No symbol) [0x00007FF63F2828F6]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+---------------------------- Captured stdout call -----------------------------
+Element clicked successfully.
+---------------------------- Captured stderr call -----------------------------
+[92m2024-01-18 18:11:53,431 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:11:53,431 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:11:53,519 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-18 18:11:53,519 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-18 18:11:54,198 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-18 18:11:54,198 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-18 18:11:54,259 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:11:54,259 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:11:57,365 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:11:57,365 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:11:57,447 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-18 18:11:57,447 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-18 18:11:58,113 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-18 18:11:58,113 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-18 18:11:58,181 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:11:58,181 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:12:01,296 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:12:01,296 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:12:01,409 :INFO :sign_in_test :__Click unassign number.[0m
+[92m2024-01-18 18:12:01,409 :INFO :sign_in_test :__Click unassign number.[0m
+[92m2024-01-18 18:12:01,484 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:12:01,484 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:12:04,599 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:12:04,599 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:12:07,735 :INFO :sign_in_test :__Clicked edit member.[0m
+[92m2024-01-18 18:12:07,735 :INFO :sign_in_test :__Clicked edit member.[0m
+[92m2024-01-18 18:12:07,871 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:12:07,871 :INFO :sign_in_test :__Clicked three dot menu.[0m
+------------------------------ Captured log call ------------------------------
+INFO     sign_in_test:test_teams.py:165 __Clicked three dot menu.
+INFO     sign_in_test:test_teams.py:168 __Clicked on assign team.
+INFO     sign_in_test:test_teams.py:171 __Selected team to assign
+INFO     sign_in_test:test_teams.py:174 __Submit.
+INFO     sign_in_test:test_teams.py:178 __Clicked three dot menu.
+INFO     sign_in_test:test_teams.py:181 __Clicked assign number.
+INFO     sign_in_test:test_teams.py:184 __Selected number from the list.
+INFO     sign_in_test:test_teams.py:187 __Submit.
+INFO     sign_in_test:test_teams.py:191 __Clicked three dot menu.
+INFO     sign_in_test:test_teams.py:194 __Click unassign number.
+INFO     sign_in_test:test_teams.py:197 __Submit.
+INFO     sign_in_test:test_teams.py:201 __Clicked three dot menu.
+INFO     sign_in_test:test_teams.py:205 __Clicked edit member.
+INFO     sign_in_test:test_teams.py:208 __Clicked three dot menu.
+_____________________________ TestPhone.test_one ______________________________
+
+self = <testCases.test_phone.TestPhone object at 0x000001FC53F13E80>
+setup = <selenium.webdriver.chrome.webdriver.WebDriver (session="42ff5d77d16c5cb15794e1b219f7a432")>
+
+    def test_one(self, setup):
+        self.driver = setup
+        self.sp = SignInPage(self.driver)
+        self.pp = PhonePage(self.driver)
+        # self.driver.switch_to.alert.accept()
+>       self.pp.click_heading()
+
+testCases\test_phone.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pageObjects\phone_page.py:9: in click_heading
+    self.click_element("XPATH", self.ppl.phone_heading_xpath)
+pageObjects\base_page.py:57: in click_element
+    element = WebDriverWait(self.driver, timeout).until(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.support.wait.WebDriverWait (session="42ff5d77d16c5cb15794e1b219f7a432")>
+method = <function element_to_be_clickable.<locals>._predicate at 0x000001FC54755A20>
+message = ''
+
+    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = "") -> T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() > end_time:
+                break
+>       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF63F732142+3514994]
+E       	(No symbol) [0x00007FF63F350CE2]
+E       	(No symbol) [0x00007FF63F1F76AA]
+E       	(No symbol) [0x00007FF63F241860]
+E       	(No symbol) [0x00007FF63F24197C]
+E       	(No symbol) [0x00007FF63F284EE7]
+E       	(No symbol) [0x00007FF63F26602F]
+E       	(No symbol) [0x00007FF63F2828F6]
+E       	(No symbol) [0x00007FF63F265D93]
+E       	(No symbol) [0x00007FF63F234BDC]
+E       	(No symbol) [0x00007FF63F235C64]
+E       	GetHandleVerifier [0x00007FF63F75E16B+3695259]
+E       	GetHandleVerifier [0x00007FF63F7B6737+4057191]
+E       	GetHandleVerifier [0x00007FF63F7AE4E3+4023827]
+E       	GetHandleVerifier [0x00007FF63F4804F9+689705]
+E       	(No symbol) [0x00007FF63F35C048]
+E       	(No symbol) [0x00007FF63F358044]
+E       	(No symbol) [0x00007FF63F3581C9]
+E       	(No symbol) [0x00007FF63F3488C4]
+E       	BaseThreadInitThunk [0x00007FFAF31D7344+20]
+E       	RtlUserThreadStart [0x00007FFAF42A26B1+33]
+
+local\lib\site-packages\selenium\webdriver\support\wait.py:101: TimeoutException
+============================== warnings summary ===============================
+testCases/test_teams.py::TestTeam::test_add_member
+testCases/test_teams.py::TestTeam::test_table_data_in_excel
+  C:\Users\Kajal\fonu\pageObjects\teams_page.py:228: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+    df = pd.read_html(table_html)[0]  # Assuming there is only one table on the page
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED testCases/test_teams.py::TestTeam::test_perform_actions_member - selen...
+FAILED testCases/test_phone.py::TestPhone::test_one - selenium.common.excepti...
+2 failed, 10 passed, 2 warnings in 135.41s (0:02:15)

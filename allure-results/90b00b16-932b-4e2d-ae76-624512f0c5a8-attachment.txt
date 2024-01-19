@@ -1,0 +1,30 @@
+[92m2024-01-18 18:51:07,545 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 18:51:07,545 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 18:51:07,545 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-18 18:51:07,949 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-18 18:51:07,949 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-18 18:51:07,949 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-18 18:51:08,323 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-18 18:51:08,323 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-18 18:51:08,323 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-18 18:51:08,610 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-18 18:51:08,610 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-18 18:51:08,610 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-18 18:51:08,841 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:08,841 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:08,841 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:10,028 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:10,028 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:10,028 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:11,052 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:11,052 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:11,052 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:14,777 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-18 18:51:14,777 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-18 18:51:14,777 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-18 18:51:14,918 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-18 18:51:14,918 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-18 18:51:14,918 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-18 18:51:14,985 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:14,985 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-18 18:51:14,985 :INFO :sign_in_test :__Clicked Sign in.[0m

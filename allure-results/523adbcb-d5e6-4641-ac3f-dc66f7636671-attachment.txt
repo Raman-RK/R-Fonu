@@ -1,0 +1,4 @@
+[32mINFO    [0m sign_in_test:test_teams.py:139 __Clicked on the create team.
+[32mINFO    [0m sign_in_test:test_teams.py:141 __Team name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:145 __Clicked on the submit button
+[32mINFO    [0m sign_in_test:test_teams.py:146 __Team without member is created successfully

@@ -1,0 +1,19 @@
+[32mINFO    [0m sign_in_test:test_signin.py:36 __Test One.
+[32mINFO    [0m sign_in_test:test_signin.py:37 __Verifying Title.
+[32mINFO    [0m sign_in_test:test_signin.py:43 __ Title.
+[32mINFO    [0m sign_in_test:test_signin.py:54 ____________Test Two__________
+[32mINFO    [0m sign_in_test:test_signin.py:60 __excepted text is same as actual text.
+[32mINFO    [0m sign_in_test:test_signin.py:65 __Test Three
+[32mINFO    [0m sign_in_test:test_signin.py:77 __Test One
+[32mINFO    [0m sign_in_test:test_signin.py:80 __Url entered.
+[32mINFO    [0m sign_in_test:test_signin.py:86 __Number entered.
+[32mINFO    [0m sign_in_test:test_signin.py:90 __Password entered
+[32mINFO    [0m sign_in_test:test_signin.py:94 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_signin.py:98 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_signin.py:102 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_signin.py:105 __Clicked Send.
+[32mINFO    [0m sign_in_test:test_signin.py:107 __Entered verification Code.
+[32mINFO    [0m sign_in_test:test_signin.py:109 __Clicked Sign in.
+[32mINFO    [0m sign_in_test:test_teams.py:44 __Test One
+[32mINFO    [0m sign_in_test:test_teams.py:45 __Adding Member
+[32mINFO    [0m sign_in_test:test_teams.py:54 __Successful login

@@ -1,0 +1,28 @@
+[92m2024-01-18 18:34:38,878 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:38,878 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:38,970 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-18 18:34:38,970 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-18 18:34:39,666 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-18 18:34:39,666 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-18 18:34:39,734 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:34:39,734 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:34:42,828 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:42,828 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:42,914 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-18 18:34:42,914 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-18 18:34:43,613 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-18 18:34:43,613 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-18 18:34:43,685 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:34:43,685 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:34:46,781 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:46,781 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:46,866 :INFO :sign_in_test :__Click unassign number.[0m
+[92m2024-01-18 18:34:46,866 :INFO :sign_in_test :__Click unassign number.[0m
+[92m2024-01-18 18:34:46,970 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:34:46,970 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-18 18:34:50,060 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:50,060 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:53,194 :INFO :sign_in_test :__Clicked edit member.[0m
+[92m2024-01-18 18:34:53,194 :INFO :sign_in_test :__Clicked edit member.[0m
+[92m2024-01-18 18:34:53,327 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-18 18:34:53,327 :INFO :sign_in_test :__Clicked three dot menu.[0m

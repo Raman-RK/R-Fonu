@@ -1,0 +1,12 @@
+[92m2024-01-18 18:49:24,801 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-18 18:49:24,801 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-18 18:49:24,801 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-18 18:49:24,918 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-18 18:49:24,918 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-18 18:49:24,918 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-18 18:49:27,032 :INFO :sign_in_test :__Clicked on the submit button[0m
+[92m2024-01-18 18:49:27,032 :INFO :sign_in_test :__Clicked on the submit button[0m
+[92m2024-01-18 18:49:27,032 :INFO :sign_in_test :__Clicked on the submit button[0m
+[92m2024-01-18 18:49:27,032 :INFO :sign_in_test :__Team without member is created successfully[0m
+[92m2024-01-18 18:49:27,032 :INFO :sign_in_test :__Team without member is created successfully[0m
+[92m2024-01-18 18:49:27,032 :INFO :sign_in_test :__Team without member is created successfully[0m

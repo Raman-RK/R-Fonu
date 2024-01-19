@@ -1,0 +1,3 @@
+[32mINFO    [0m sign_in_test:test_teams.py:93 ____________Clicked add member.
+[32mINFO    [0m sign_in_test:test_teams.py:95 ____________First name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:97 ____________Last name is entered.

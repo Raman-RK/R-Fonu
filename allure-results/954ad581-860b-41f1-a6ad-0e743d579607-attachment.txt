@@ -1,0 +1,70 @@
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,396 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,551 :INFO :sign_in_test :__Clicked on edit team[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,683 :INFO :sign_in_test :__Team name is changed[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:10,766 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,790 :INFO :sign_in_test :__members from the dropdown are modified[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:20,858 :INFO :sign_in_test :__Clicked on the member dropdown[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:22,953 :INFO :sign_in_test :__Clicked on the Create Team[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,312 :INFO :sign_in_test :__Three dot menu of First team is selected[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:25,418 :INFO :sign_in_test :__Clicked on invite to team[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m
+[92m2024-01-19 19:05:28,086 :INFO :sign_in_test :__Clicked on send invite[0m

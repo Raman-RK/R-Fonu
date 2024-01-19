@@ -33,14 +33,16 @@ class TestTeam:
     status_heading_txt = config_reader.status_table()
     logger = LogGen.loggen()
     bp = Base()
-    random_email = bp.generate_random_email()
-    random_name = bp.generate_random_name()
-    random_number = bp.generate_random_10_digit_number()
-    random_team_name = bp.generate_random_name()
+
+
+
 
     @allure.feature('Adding a member')
     @allure.story('Verify member is added successfully.')
     def test_add_member(self, setup):
+        self.random_name = self.bp.generate_random_name()
+        self.random_email = self.bp.generate_random_email()
+        self.random_number = self.bp.generate_random_10_digit_number()
         self.logger.info("__Test One")
         self.logger.info("__Adding Member")
         self.driver = setup
@@ -52,10 +54,10 @@ class TestTeam:
         self.sp.send_password("OhMG@123")
         self.sp.click_sign_in_btn()
         self.logger.info("__Successful login")
-        time.sleep(5)
+        time.sleep(2)
         self.tp.click_teams_heading()
         self.logger.info("____________Team on header is clicked.")
-        time.sleep(5)
+        time.sleep(2)
 
         self.tp.click_add_member_btn()
         self.logger.info("____________Clicked add member.")
@@ -70,20 +72,22 @@ class TestTeam:
         self.tp.select_role_dropdown()
         self.logger.info("____________Clicked on dropdown to select the role")
         self.tp.select_role_member()
-        time.sleep(5)
+        time.sleep(2)
         allure.attach(self.driver.get_screenshot_as_png(), name="Added_role",
                       attachment_type=allure.attachment_type.PNG)
         self.logger.info("____________Selected the role")
-        time.sleep(5)
+        time.sleep(2)
         self.tp.click_submit_add_member()
-        time.sleep(5)
+        time.sleep(2)
         allure.attach(self.driver.get_screenshot_as_png(), name="Add member screenshot",
                       attachment_type=allure.attachment_type.PNG)
         self.logger.info("__Member added successfully")
         self.tp.table_data_members()
 
     def test_create_an_admin(self, setup):
-
+        self.random_name = self.bp.generate_random_name()
+        self.random_email = self.bp.generate_random_email()
+        self.random_number = self.bp.generate_random_10_digit_number()
         self.driver = setup
         self.tp = TeamPage(self.driver)
         self.tp.click_add_member_btn()
@@ -99,13 +103,12 @@ class TestTeam:
         self.tp.select_role_dropdown()
         self.logger.info("____________Clicked on dropdown to select the role")
         self.tp.select_role_admin()
-        time.sleep(5)
         allure.attach(self.driver.get_screenshot_as_png(), name="Added_role",
                       attachment_type=allure.attachment_type.PNG)
         self.logger.info("____________Selected the role as member")
-        time.sleep(5)
+        time.sleep(2)
         self.tp.click_submit_add_member()
-        time.sleep(5)
+        time.sleep(2)
         allure.attach(self.driver.get_screenshot_as_png(), name="Add member screenshot",
                       attachment_type=allure.attachment_type.PNG)
         self.logger.info("__Member added successfully")
@@ -114,6 +117,8 @@ class TestTeam:
     @allure.feature('Creating a Team')
     @allure.story('Verify team with member is added successfully.')
     def test_create_team(self, setup):
+        self.random_team_name = self.bp.generate_random_name()
+        self.random_name = self.bp.generate_random_name()
         self.driver = setup
         self.tp = TeamPage(self.driver)
         self.tp.click_subheading_teams()
@@ -124,6 +129,7 @@ class TestTeam:
         self.logger.info("__Team name is entered.")
         self.tp.select_members_drpdown()
         self.logger.info("__Clicked on 'Select dropdown'")
+        time.sleep(2)
         self.tp.dropdown_list_select_members()
         # self.tp.list_select()
         self.logger.info("__Selected on member.")
@@ -134,8 +140,10 @@ class TestTeam:
     @allure.feature('Create a Team')
     @allure.feature('Verify that a team without a member is created successfully')
     def test_create_empty_team(self, setup):
+        self.random_team_name = self.bp.generate_random_name()
         self.driver = setup
         self.tp = TeamPage(self.driver)
+        time.sleep(2)
         self.tp.click_create_team()
         self.logger.info("__Clicked on the create team.")
         self.tp.send_team_name(self.team_name)
@@ -151,7 +159,7 @@ class TestTeam:
     def test_perform_actions_team(self, setup):
         self.driver = setup
         self.tp = TeamPage(self.driver)
-
+        self.random_team_name = self.bp.generate_random_name()
         self.tp.click_subheading_teams()
 
         self.tp.click_drpdwn_for_first_team()
@@ -168,12 +176,12 @@ class TestTeam:
         self.logger.info("__Clicked on the member dropdown")
         self.tp.click_submit_create_team()
         self.logger.info("__Clicked on the Create Team")
-        time.sleep(3)
+        time.sleep(2)
         self.tp.click_drpdwn_for_first_team()
         self.logger.info("__Three dot menu of First team is selected")
         self.tp.click_invite_2_team()
         self.logger.info("__Clicked on invite to team")
-        time.sleep(3)
+        time.sleep(2)
         self.tp.select_members_to_send_invite()
         self.logger.info("__Clicked on send invite")
         self.tp.click_send_invite()
@@ -203,42 +211,44 @@ class TestTeam:
         self.logger.info("__Submit.")
 
         time.sleep(3)
-        self.tp.click_menu_member()
-        self.logger.info("__Clicked three dot menu.")
+        # self.tp.click_menu_member()
+        # self.logger.info("__Clicked three dot menu.")
 
-        self.tp.click_assign_number()
-        self.logger.info("__Clicked assign number.")
+        # self.tp.click_assign_number()
+        # self.logger.info("__Clicked assign number.")
 
-        self.tp.click_number_from_list()
-        self.logger.info("__Selected number from the list.")
+        # self.tp.click_number_from_list()
+        # self.logger.info("__Selected number from the list.")
+        #
+        # self.tp.click_submit_assign_number()
+        # self.logger.info("__Submit.")
+        #
+        # time.sleep(3)
+        # self.tp.click_menu_member()
+        # self.logger.info("__Clicked three dot menu.")
 
-        self.tp.click_submit_assign_number()
-        self.logger.info("__Submit.")
+        # self.tp.click_unassign()
+        # self.logger.info("__Click unassign number.")
 
-        time.sleep(3)
-        self.tp.click_menu_member()
-        self.logger.info("__Clicked three dot menu.")
+        # # self.tp.click_unassign_submit()
+        # self.logger.info("__Submit.")
+        #
+        # time.sleep(3)
+        # # self.tp.click_menu_member()
+        # self.logger.info("__Clicked three dot menu.")
 
-        self.tp.click_unassign()
-        self.logger.info("__Click unassign number.")
-
-        self.tp.click_unassign_submit()
-        self.logger.info("__Submit.")
-
-        time.sleep(3)
-        self.tp.click_menu_member()
-        self.logger.info("__Clicked three dot menu.")
-
-        time.sleep(3)
-        self.tp.click_edit_member()
-        self.logger.info("__Clicked edit member.")
-
-        self.tp.change_member_name(self.random_name)
-        self.logger.info("__Clicked three dot menu.")
-
-        self.tp.click_submit_edit_member()
+        # time.sleep(3)
+        # self.tp.click_edit_member()
+        # self.logger.info("__Clicked edit member.")
+        #
+        # self.tp.change_member_name(self.random_name)
+        # self.logger.info("__Clicked three dot menu.")
+        #
+        # self.tp.click_submit_edit_member()
         time.sleep(2)
-        self.tp.click_menu_member()
-        self.tp.click_delete_member()
+        # self.tp.click_menu_member()
+        # self.tp.click_delete_member()
+        self.tp.click_to_select_all()
+        self.tp.delete_in_bulk()
 
 

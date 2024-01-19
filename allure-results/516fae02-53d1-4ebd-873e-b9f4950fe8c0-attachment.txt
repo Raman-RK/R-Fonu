@@ -1,0 +1,84 @@
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,492 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:52:57,493 :INFO :sign_in_test :__Adding Member[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:02,413 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:07,553 :INFO :sign_in_test :____________Team on header is clicked.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,684 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,810 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:12,908 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,078 :INFO :sign_in_test :Email is entered.[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,200 :INFO :sign_in_test :____________Phone number is entered[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:13,265 :INFO :sign_in_test :____________Clicked on dropdown to select the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:18,495 :INFO :sign_in_test :____________Selected the role[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m
+[92m2024-01-19 16:53:28,959 :INFO :sign_in_test :__Member added successfully[0m

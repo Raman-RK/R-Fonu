@@ -1,0 +1,6 @@
+INFO     sign_in_test:test_teams.py:90 ____________Clicked add member.
+INFO     sign_in_test:test_teams.py:92 ____________First name is entered.
+INFO     sign_in_test:test_teams.py:94 ____________Last name is entered.
+INFO     sign_in_test:test_teams.py:96 Email is entered.
+INFO     sign_in_test:test_teams.py:98 ____________Phone number is entered
+INFO     sign_in_test:test_teams.py:100 ____________Clicked on dropdown to select the role

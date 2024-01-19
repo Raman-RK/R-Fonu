@@ -1,0 +1,7 @@
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m
+[92m2024-01-19 13:54:20,484 :INFO :sign_in_test :__Successful login[0m

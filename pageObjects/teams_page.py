@@ -78,7 +78,9 @@ class TeamPage(CommonClass):
         for text in stripped_text:
             print(text)
             dynamic_xpath = f"//dropdown-menu-item//label[@for='{text}']"
+            time.sleep(2)
             self.click_element('XPATH', dynamic_xpath)
+            time.sleep(2)
             self.select_members_drpdown()
         # Print the list after stripping
         print(stripped_text)
@@ -240,4 +242,8 @@ class TeamPage(CommonClass):
     def table_data_members(self):
         self.common_table_data(self.tpl.table_members_xpath, "table_data_members", "XPATH", "Name")
 
+    def click_to_select_all(self):
+        self.click_element('XPATH', self.tpl.select_all_checkbox)
 
+    def delete_in_bulk(self):
+        self.click_element('XPATH', self.tpl.delete_bulk_xpath)

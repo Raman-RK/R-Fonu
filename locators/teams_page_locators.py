@@ -12,7 +12,7 @@ class TeamsPageLocators:
     create_team_btn_css = '[class=" w-64"] button'
     team_name_xpath = '//input[@name="name"]'
     select_members_xpath = '//dialog-body//dropdown-element'
-    admin_role_xpath = "//div[text() = 'Admin']"
+    admin_role_xpath = '//div[@class="text-black font-semibold text-base"][text() = "Admin"]'
     submit_create_team_xpath = "//button[@type='submit']"
     select_members_xpath_list = '//dropdown-menu-item//label'
     heading_text_css = '[class=" text-grey-700 text-sm"]'
@@ -49,4 +49,6 @@ class TeamsPageLocators:
     submit_edit_member_css = '[class="px-6 mt-4"] button'
     table_css = 'table[class="w-full table table-auto"]'
     table_members_xpath = '//table'
+    select_all_checkbox = '//tr//th[1]//input'
+    delete_bulk_xpath = '//*[@class="w-64"] /button'
 

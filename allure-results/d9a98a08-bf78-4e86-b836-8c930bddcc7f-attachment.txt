@@ -1,0 +1,21 @@
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,167 :INFO :sign_in_test :____________Clicked add member.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,288 :INFO :sign_in_test :____________First name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m
+[92m2024-01-19 16:35:42,392 :INFO :sign_in_test :____________Last name is entered.[0m

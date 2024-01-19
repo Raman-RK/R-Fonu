@@ -1,0 +1,10 @@
+[32mINFO    [0m sign_in_test:test_teams.py:165 __Three dot menu of First team is selected
+[32mINFO    [0m sign_in_test:test_teams.py:167 __Clicked on edit team
+[32mINFO    [0m sign_in_test:test_teams.py:169 __Team name is changed
+[32mINFO    [0m sign_in_test:test_teams.py:171 __Clicked on the member dropdown
+[32mINFO    [0m sign_in_test:test_teams.py:173 __members from the dropdown are modified
+[32mINFO    [0m sign_in_test:test_teams.py:175 __Clicked on the member dropdown
+[32mINFO    [0m sign_in_test:test_teams.py:177 __Clicked on the Create Team
+[32mINFO    [0m sign_in_test:test_teams.py:180 __Three dot menu of First team is selected
+[32mINFO    [0m sign_in_test:test_teams.py:182 __Clicked on invite to team
+[32mINFO    [0m sign_in_test:test_teams.py:185 __Clicked on send invite

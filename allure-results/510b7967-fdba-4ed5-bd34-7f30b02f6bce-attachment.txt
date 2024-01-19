@@ -1,0 +1,10 @@
+INFO     sign_in_test:test_signin.py:81 __Test One
+INFO     sign_in_test:test_signin.py:84 __Url entered.
+INFO     sign_in_test:test_signin.py:90 __Number entered.
+INFO     sign_in_test:test_signin.py:94 __Password entered
+INFO     sign_in_test:test_signin.py:98 __Clicked Sign in.
+INFO     sign_in_test:test_signin.py:102 __Clicked Sign in.
+INFO     sign_in_test:test_signin.py:106 __Clicked Sign in.
+INFO     sign_in_test:test_signin.py:109 __Clicked Send.
+INFO     sign_in_test:test_signin.py:111 __Entered verification Code.
+INFO     sign_in_test:test_signin.py:113 __Clicked Sign in.

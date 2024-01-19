@@ -1,0 +1,2 @@
+Phone number is invalid.
+This phone number +234 987 654 3987 does not exist. Please signup first

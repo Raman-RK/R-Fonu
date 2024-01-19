@@ -1,0 +1,56 @@
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,235 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:12,333 :INFO :sign_in_test :__Clicked on assign team.[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,016 :INFO :sign_in_test :__Selected team to assign[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:13,077 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,166 :INFO :sign_in_test :__Clicked three dot menu.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,274 :INFO :sign_in_test :__Clicked assign number.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:16,943 :INFO :sign_in_test :__Selected number from the list.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m
+[92m2024-01-19 18:39:17,016 :INFO :sign_in_test :__Submit.[0m

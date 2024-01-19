@@ -1,0 +1,40 @@
+[92m2024-01-19 15:30:41,739 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 15:30:41,739 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 15:30:41,739 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 15:30:41,739 :INFO :sign_in_test :__Test One[0m
+[92m2024-01-19 15:30:42,180 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-19 15:30:42,180 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-19 15:30:42,180 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-19 15:30:42,180 :INFO :sign_in_test :__Url entered.[0m
+[92m2024-01-19 15:30:42,613 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-19 15:30:42,613 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-19 15:30:42,613 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-19 15:30:42,613 :INFO :sign_in_test :__Number entered.[0m
+[92m2024-01-19 15:30:42,859 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-19 15:30:42,859 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-19 15:30:42,859 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-19 15:30:42,859 :INFO :sign_in_test :__Password entered[0m
+[92m2024-01-19 15:30:43,049 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:43,049 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:43,049 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:43,049 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:44,213 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:44,213 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:44,213 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:44,213 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:45,288 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:45,288 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:45,288 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:45,288 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:49,020 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-19 15:30:49,020 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-19 15:30:49,020 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-19 15:30:49,020 :INFO :sign_in_test :__Clicked Send.[0m
+[92m2024-01-19 15:30:49,165 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-19 15:30:49,165 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-19 15:30:49,165 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-19 15:30:49,165 :INFO :sign_in_test :__Entered verification Code.[0m
+[92m2024-01-19 15:30:49,248 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:49,248 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:49,248 :INFO :sign_in_test :__Clicked Sign in.[0m
+[92m2024-01-19 15:30:49,248 :INFO :sign_in_test :__Clicked Sign in.[0m

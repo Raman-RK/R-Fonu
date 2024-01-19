@@ -1,0 +1,6 @@
+[32mINFO    [0m sign_in_test:test_teams.py:125 __Clicked on the teams in sidebar
+[32mINFO    [0m sign_in_test:test_teams.py:127 __Clicked on the create team.
+[32mINFO    [0m sign_in_test:test_teams.py:129 __Team name is entered.
+[32mINFO    [0m sign_in_test:test_teams.py:131 __Clicked on 'Select dropdown'
+[32mINFO    [0m sign_in_test:test_teams.py:134 __Selected on member.
+[32mINFO    [0m sign_in_test:test_teams.py:137 Team is created successfully

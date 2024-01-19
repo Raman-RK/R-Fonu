@@ -1,0 +1,2 @@
+[32mINFO    [0m sign_in_test:test_signin.py:79 __Test One
+[32mINFO    [0m sign_in_test:test_signin.py:82 __Url entered.

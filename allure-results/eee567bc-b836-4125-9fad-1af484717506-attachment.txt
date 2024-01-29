@@ -1,0 +1,4 @@
+INFO     sign_in_test:test_teams.py:122 __Clicked on the teams in sidebar
+INFO     sign_in_test:test_teams.py:124 __Clicked on the create team.
+INFO     sign_in_test:test_teams.py:126 __Team name is entered.
+INFO     sign_in_test:test_teams.py:128 __Clicked on 'Select dropdown'

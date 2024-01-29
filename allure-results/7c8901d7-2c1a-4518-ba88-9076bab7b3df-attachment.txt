@@ -1,0 +1,7 @@
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-25 12:39:52,041 :INFO :sign_in_test :__Clicked on the create team.[0m

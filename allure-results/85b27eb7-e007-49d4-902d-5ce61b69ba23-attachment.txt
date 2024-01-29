@@ -1,0 +1,3 @@
+INFO     sign_in_test:test_teams.py:43 __Test One
+INFO     sign_in_test:test_teams.py:44 __Adding Member
+INFO     sign_in_test:test_teams.py:53 __Successful login

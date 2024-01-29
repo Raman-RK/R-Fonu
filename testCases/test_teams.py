@@ -34,9 +34,6 @@ class TestTeam:
     logger = LogGen.loggen()
     bp = Base()
 
-
-
-
     @allure.feature('Adding a member')
     @allure.story('Verify member is added successfully.')
     def test_add_member(self, setup):
@@ -50,8 +47,8 @@ class TestTeam:
         self.sp = SignInPage(self.driver)
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
-        self.sp.send_phone("+234 1234567890")
-        self.sp.send_password("OhMG@123")
+        self.sp.send_phone("+234 878 685 8483")
+        self.sp.send_password("Demo@1234")
         self.sp.click_sign_in_btn()
         self.logger.info("__Successful login")
         time.sleep(2)
@@ -250,5 +247,3 @@ class TestTeam:
         # self.tp.click_delete_member()
         self.tp.click_to_select_all()
         self.tp.delete_in_bulk()
-
-

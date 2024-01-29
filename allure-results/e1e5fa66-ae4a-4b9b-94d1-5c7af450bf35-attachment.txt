@@ -1,0 +1,5 @@
+[32mINFO    [0m sign_in_test:test_signin.py:79 __Test One
+[32mINFO    [0m sign_in_test:test_signin.py:82 __Url entered.
+[32mINFO    [0m sign_in_test:test_signin.py:88 __Number entered.
+[32mINFO    [0m sign_in_test:test_signin.py:92 __Password entered
+[32mINFO    [0m sign_in_test:test_signin.py:96 __Clicked Sign in.

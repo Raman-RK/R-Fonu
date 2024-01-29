@@ -1,0 +1,1 @@
+{"uuid": "76397c3f-da3f-42e0-9c67-f29a5b05343e", "children": ["ee16a845-b44f-4466-a3e2-771239f8b5cf"], "befores": [{"name": "block_network", "status": "passed", "start": 1706090919362, "stop": 1706090919363}], "afters": [{"name": "block_network::0", "status": "passed", "start": 1706090930940, "stop": 1706090930940}], "start": 1706090919362, "stop": 1706090930941}

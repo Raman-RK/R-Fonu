@@ -1,0 +1,5 @@
+INFO     sign_in_test:test_signin.py:79 __Test One
+INFO     sign_in_test:test_signin.py:82 __Url entered.
+INFO     sign_in_test:test_signin.py:88 __Number entered.
+INFO     sign_in_test:test_signin.py:92 __Password entered
+INFO     sign_in_test:test_signin.py:96 __Clicked Sign in.

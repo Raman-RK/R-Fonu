@@ -1,0 +1,28 @@
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,773 :INFO :sign_in_test :__Clicked on the teams in sidebar[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:55,931 :INFO :sign_in_test :__Clicked on the create team.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,123 :INFO :sign_in_test :__Team name is entered.[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m
+[92m2024-01-24 15:42:56,253 :INFO :sign_in_test :__Clicked on 'Select dropdown'[0m

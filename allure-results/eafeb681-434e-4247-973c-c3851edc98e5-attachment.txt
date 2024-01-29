@@ -1,0 +1,3 @@
+[32mINFO    [0m sign_in_test:test_teams.py:43 __Test One
+[32mINFO    [0m sign_in_test:test_teams.py:44 __Adding Member
+[32mINFO    [0m sign_in_test:test_teams.py:53 __Successful login

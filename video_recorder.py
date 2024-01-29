@@ -6,7 +6,7 @@ import numpy as np
 import pyautogui
 from pyautogui import screenshot
 
-output_path = sys.argv[1]
+output_path = "output_video.avi"
 
 screen_size = pyautogui.size()
 fourcc = cv2.VideoWriter_fourcc(*"XVID")

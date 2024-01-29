@@ -1,7 +1,6 @@
 import time
 import allure
 import pytest
-
 from pageObjects.signin_page import SignInPage
 from utilities.readproperties import ReadConfig
 from utilities.customlogger import LogGen
@@ -9,7 +8,6 @@ from testCases.conf_test import setup
 
 
 class TestSignIn:
-    # Create an instance of ReadConfig
     @pytest.fixture(autouse=True)
     def class_setup(self, setup):
         self.driver = setup
@@ -34,7 +32,7 @@ class TestSignIn:
 
     @allure.feature('Title Verification')
     @allure.story('Verify Title')
-    def test_title_verification(self):
+    def test_title_verification(self, class_setup):
         print("Test method started")
         self.logger.info("__Test One.")
         self.logger.info("__Verifying Title.")
@@ -84,7 +82,7 @@ class TestSignIn:
         self.sp = SignInPage(self.driver)
         allure.attach(self.driver.get_screenshot_as_png(), name="Sign-in page",
                       attachment_type=allure.attachment_type.PNG)
-        self.sp.send_phone("+234 1234567890")
+        self.sp.send_phone("+234 878 685 8483")
         self.logger.info("__Number entered.")
         allure.attach(self.driver.get_screenshot_as_png(), name="Phone number",
                       attachment_type=allure.attachment_type.PNG)
@@ -114,7 +112,7 @@ class TestSignIn:
         self.driver = setup
         self.driver.get(self.baseURL)
         self.sp = SignInPage(self.driver)
-        self.sp.send_phone("+234 1234567890")
-        self.sp.send_password('OhMG@123')
+        self.sp.send_phone("+234 878 685 8483")
+        self.sp.send_password('OhMG@1234')
         time.sleep(10)
         self.sp.click_sign_in_btn()

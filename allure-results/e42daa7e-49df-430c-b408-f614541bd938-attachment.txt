@@ -1,0 +1,1 @@
+INFO     sign_in_test:test_teams.py:145 __Clicked on the create team.

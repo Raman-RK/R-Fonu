@@ -1,0 +1,1 @@
+INFO     sign_in_test:test_phone.py:31 __Successful login

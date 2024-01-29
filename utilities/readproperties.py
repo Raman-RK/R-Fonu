@@ -11,6 +11,7 @@ class ReadConfig:
 
     def get_application_url(self):
         url = self.config.get('common info', 'baseURL')
+        print(url)
         return url
 
     def get_number(self):

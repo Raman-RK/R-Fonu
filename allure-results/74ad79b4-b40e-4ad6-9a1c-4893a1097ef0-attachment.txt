@@ -1,0 +1,4 @@
+[32mINFO    [0m sign_in_test:test_teams.py:199 __Clicked three dot menu.
+[32mINFO    [0m sign_in_test:test_teams.py:202 __Clicked on assign team.
+[32mINFO    [0m sign_in_test:test_teams.py:205 __Selected team to assign
+[32mINFO    [0m sign_in_test:test_teams.py:208 __Submit.
